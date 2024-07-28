@@ -5,6 +5,8 @@ import './index.css'
 import { BrowserRouter as Router } from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop.jsx'
 import { AnimeProvider } from './context/animeContext.jsx';
+import { Analytics } from '@vercel/analytics/react';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -12,6 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Router>
             <ScrollToTop />
             <App />
+            <Analytics />
         </Router>
     </AnimeProvider>
   </React.StrictMode>,
