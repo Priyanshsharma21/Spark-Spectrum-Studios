@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Navbar, Preloader } from './components';
 import { AnimatePresence } from 'framer-motion';
 import { Route, Routes, useLocation } from 'react-router-dom';
-import { About, Contact, Home, Store, Work, WorkDetails } from './pages';
+import { About, Contact, Home, Content, Work, WorkDetails } from './pages';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -39,7 +39,7 @@ const App = () => {
               <Route path="/contact" element={<Contact />} />
               <Route path="/work" element={<Work />} />
               <Route path="/work/:id" element={<WorkDetails />} />
-              <Route path="/store" element={<Store />} />
+              <Route path="/content" element={<Content />} />
             </Routes>
           </>
     </div>

@@ -57,16 +57,16 @@ const WorkDetails = () => {
       <motion.div style={{ y: yTransform }} className="pd-vid-positioner">
         <div className="pd-dark-side" />{" "}
         <video
-                preload="preload"
-                poster={workDetail?.teaser}
-                muted
-                playsInline
-                loop
-                autoPlay
-                className="pd-showreel"
-              >
-                <source src={workDetail?.websiteTeaser} />
-              </video>
+          preload="preload"
+          poster={workDetail?.teaser}
+          muted
+          playsInline
+          loop
+          autoPlay
+          className="pd-showreel"
+        >
+            <source src={workDetail?.websiteTeaser} />
+        </video>
       </motion.div>
 
       <div className="pd-subinfo-box">

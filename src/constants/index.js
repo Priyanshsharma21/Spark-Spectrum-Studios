@@ -1,4 +1,6 @@
-
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa6";
+import { AiOutlineYoutube } from "react-icons/ai";
 
 export const navItems = [
     {
@@ -8,16 +10,16 @@ export const navItems = [
         message : "Click here for some serious eye-candy!"
     },
     {
+      key : "d2d2d87u6u",
+      name : "Stories",
+      path : "/content",
+      message : "See the magic of our content creation!"
+  },
+    {
         key : "d2d2d232",
         name : "About",
         path : "/about",
         message : "Not the about page you'd expect."
-    },
-    {
-        key : "d2d2d87u6u",
-        name : "Store",
-        path : "/store",
-        message : "Buy limited ready-to-go websites."
     },
     {
       key : "d2d2d5656",
@@ -75,7 +77,7 @@ export const aboutSection = [
     
             "We are Spark Spectrum Studios. Our team is reliable and professional, with a global network of experts ready to handle projects of any size. We ensure that not everything we create sounds like a robotic script – it has heart, humor, and a touch of brilliance.",
     
-            "Data-driven strategies? We prefer to trust our instincts. And why should you trust them? Simple: they have guided us to create some of the most engaging content out there. Our work has won us numerous awards, including multiple Awwwards, FWA, and CSSDA 'Site Of The Day' awards, as well as features on Communication Arts, Site Inspire, Codrops, and many more.",
+            "Data-driven strategies? We prefer to trust our instincts. And why should you trust them? Simple: they have guided us to create some of the most engaging content out there. Our work has won us numerous awards, including FunctionUp 9X milestones, Javascript Mastery Awards, as well as features on ProductHunt and many more.",
     
             `Interested in our full skillset? Here we go: We do Web Design, Web Development, Creative Direction, Branding, User Experience Design, Interaction Design, E-Commerce, Video editing, podcast editing, reels editing, Graphic Design and Art Direction.`,
             
@@ -84,7 +86,9 @@ export const aboutSection = [
       yesorno: false,
     }
   ];
-  
+
+
+
 
 
 export const workDetails = [
@@ -159,7 +163,7 @@ export const workDetails = [
       launchDate: "2023 Sept",
       serviceProvided: ["Video uploads", "Likes and comments", "Video search"],
       websiteLink: "https://do-tok-app.vercel.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/c18c7be1f07c0df6aca643573758b93c95441f28-1336x4710.png"],
       techUsed: ["React18 - Frontend", "Typescript", "Sanity.io - CMS", "Zustand - State Management"],
         message: "Everyone's favorite."
     },
@@ -175,7 +179,7 @@ export const workDetails = [
       launchDate: "2023 Sept",
       serviceProvided: ["AI art generation", "Art sharing", "Art downloads"],
       websiteLink: "https://pxlai.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/816b95a2b04f29b55451c8b6989cc3946600b7f4-1280x1025.png","https://cdn.sanity.io/images/s9olv7lh/production/5c73289e99569db19e610279a102502a3ec509a2-360x202.gif"],
       techUsed: ["React18 - Frontend", "Redux Toolkit - State Management and API's", "Tailwind CSS - Styling", "Lexia AI - AI Image Model", "OpenAI - DALLE API", "Nodejs - Backend", "ExpressJs - Web app Framework for Node", "MongoDB - Database"],
        message: "AI-driven image perfection."
     },
@@ -191,7 +195,7 @@ export const workDetails = [
       launchDate: "2023 Sept",
       serviceProvided: ["Data-driven solutions", "AI/ML analytics"],
       websiteLink: "https://www.libraanalytics.ai/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/9e66818661f4bf7cbc680bb542fa9a52fdf1f84b-1283x6424.png"],
       techUsed: ["React1 - Frontend", "Tailwind CSS - Styling", "Framer Motion - Animations"],
        message: "Transforming data into insights."
     },
@@ -207,7 +211,8 @@ export const workDetails = [
       launchDate: "2023 Aug",
       serviceProvided: ["Pomodoro timer", "Note-taking"],
       websiteLink: "https://lofis.vercel.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/be33753592f01e3b4867d88dd9d908501c9253ed-1283x2839.png"],
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/be33753592f01e3b4867d88dd9d908501c9253ed-1283x2839.png"],
       techUsed: ["Next13 - Frontend and SSR", "Node - Backend", "Tailwind - Styling", "AntDesign - UI Components", "Cloudinary - Storing Images and Audios"],
       message: "Relax . Chill . Code"
     },
@@ -222,8 +227,8 @@ export const workDetails = [
       clientName: "",
       launchDate: "2024 Jan",
       serviceProvided: ["Digital marketing", "Talent acquisition", "Cloud integration"],
-      websiteLink: "https://trioinovations.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteLink: "https://www.trioinovations.com/",
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/a258b770292081073d143ab3c1b4546a176991fb-1284x3409.png", "https://cdn.sanity.io/images/s9olv7lh/production/c58bc361130c39c11166d07eebb0a4e3dafa085c-1290x1890.png"],
       techUsed: ["React(VITE) - Frontend", "Tailwind - Styling", "Aceternity UI - UI Component", "Framer Motion & GSAP - Animations"],
       message: "Innovative solutions for a better future."
     },
@@ -238,8 +243,8 @@ export const workDetails = [
       clientName: "",
       launchDate: "2023 Dec",
       serviceProvided: ["Video tutorials", "Quizzes", "Certification"],
-      websiteLink: "https://jsacademy.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteLink: "https://jsaclass.netlify.app/",
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/4220fbaf493fca59d2e4a4a9aa84c63acac4c059-1280x6476.png"],
       techUsed: ["React(VITE) - Frontend", "Node - Backend", "Express - Backend", "MongoDB - Database", "ChakraUI - UI components", "OpenAI - AI Notes Generation"],
       message: "Make detailed notes using our free AI.(FREE)"
     },
@@ -254,8 +259,8 @@ export const workDetails = [
       clientName: "",
       launchDate: "2024 Jan",
       serviceProvided: ["Games", "Stories", "Moral education"],
-      websiteLink: "https://sunshinerecreation.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteLink: "https://sunshine-recreation-center.netlify.app/",
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/7d573457c0f1159ad7ce5f9f235ca892089061fc-1280x6801.png"],
       techUsed: ["Next13 - Frontend", "Node - Backend", "Tailwind CSS - Styling","GSAP & Framer motion - Animations"],
       message: "Bringing joy and learning to kids."
     },
@@ -271,7 +276,7 @@ export const workDetails = [
       launchDate: "2023 Nov",
       serviceProvided: ["Networking", "Job search", "Content sharing"],
       websiteLink: "https://sociomate.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/30727886131b947b58aff466b8d141e848a58dae-1280x4322.png"],
       techUsed: ["React18 - Frontend", "Redux - State Management", "Tailwind CSS - Styling","Node - Backend", "Express - Backend", "MongoDB - Database", "AntD - UI COmponents" ],
        message: "Your social media companion."
     },
@@ -287,7 +292,7 @@ export const workDetails = [
       launchDate: "2023 Dec",
       serviceProvided: ["Review aggregation", "Rating system"],
       websiteLink: "https://muvue.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/e7574c64a66c62fceb636e1f47b82ddc1bb576da-1280x6717.png"],
       techUsed: ["React18 - Frontend", "Redux Toolkit - API management", "Tailwind CSS - Styling", "Google AUTH - Authentication"],
       message: "All in one movies application."
     },
@@ -302,8 +307,8 @@ export const workDetails = [
       clientName: "",
       launchDate: "2023 Aug",
       serviceProvided: ["Blogging", "Content creation"],
-      websiteLink: "https://priyanshblogs.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteLink: "https://priyansh-blog.vercel.app/",
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/0fff183be8c7f868e020cf41ed8a0d4bb175f492-1280x2241.png"],
       techUsed: ["Next13 - Frontend", "Tailwind CSS - Styling", "GraphQL - Database and CMS"],
       message: "Insights and stories from Priyansh.(ME)"
     },
@@ -318,8 +323,8 @@ export const workDetails = [
       clientName: "",
       launchDate: "2023 Nov",
       serviceProvided: ["Online shopping", "Local vendors"],
-      websiteLink: "https://kachicom.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteLink: "https://kachi-com.vercel.app/",
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/23cc3512bf0ab08a758c2232591aa956eb0e778e-1280x4418.png"],
       techUsed: ["Next13 - Frontend and SSR", "Tailwind CSS - Styling", "Stripe - Payment Gateway"],
        message: "Ultimate Ecommerce Services."
     },
@@ -334,8 +339,8 @@ export const workDetails = [
       clientName: "",
       launchDate: "2023 Dec",
       serviceProvided: ["Property listings", "Virtual tours"],
-      websiteLink: "https://uaerilms.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteLink: "https://uae-r-state.vercel.app/",
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/caf82655cefc41440e301bf9be88ce032366d425-1280x3880.png"],
       techUsed: ["React18 - Frontend", "Framer Motion - Animations", "Ant Design - UI Components", "Rapid API - Real Estate API's"],
       message: "Innovative real estate solutions in UAE."
     },
@@ -350,8 +355,8 @@ export const workDetails = [
       clientName: "",
       launchDate: "2023 Nov",
       serviceProvided: ["Portfolio tracking", "Market analysis"],
-      websiteLink: "https://icrypto.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteLink: "https://icrypto47.netlify.app/",
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/3f426caa682b30daa2398db86d1d3c271aa0d3c9-1280x3265.png"],
       techUsed: ["React18 - Frontend", "Redux - State Management", "Tailwind CSS - Styling"],
        message: "Cryptocurrency and News."
     },
@@ -366,8 +371,8 @@ export const workDetails = [
       clientName: "",
       launchDate: "2023 Dec",
       serviceProvided: ["Video transcription", "Subtitle generation"],
-      websiteLink: "https://yttranscriber.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteLink: "https://yt-transcript-five.vercel.app/",
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/926c58622caf092948cd18dbcd99e319bbf49206-1280x2762.png"],
       techUsed: ["Next13 - Frontend and SSR", "Tailwind CSS - Styling", "Rapid API - YT Transcriber API's"],
       message: "Effortless YouTube video transcriptions."
     },
@@ -382,8 +387,8 @@ export const workDetails = [
       clientName: "",
       launchDate: "2023 Sep",
       serviceProvided: ["Live statistics", "Country-wise data"],
-      websiteLink: "https://covidtracker.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteLink: "https://trackurcovid19.netlify.app/",
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/2808e9c3a38c5e03e3e2249a492291321df2ac1e-1285x1920.png"],
       techUsed: ["React18 - Frontend", "Chart.js - Chart Library", "Tailwind CSS - Styling"],
       message: "Stay updated on COVID-19 cases."
     },
@@ -398,8 +403,8 @@ export const workDetails = [
       clientName: "",
       launchDate: "2023 Oct",
       serviceProvided: ["Networking", "Job search"],
-      websiteLink: "https://atgworld.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteLink: "https://atg.world/",
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/26cf9a94b2000168f3ece767547b5db06349358f-1281x5140.png"],
       techUsed: ["React18 - Dashboard Frontend", "Tailwind CSS - Styling", "PHP - Website Frontend", "HTML, CSS, JS - Website", "Mongodb - Database", "Node and Express - Backend"],
       message: "Connecting the global tech community."
     },
@@ -414,18 +419,47 @@ export const workDetails = [
       clientName: "",
       launchDate: "2023 Dec",
       serviceProvided: ["Content automation", "SEO tools"],
-      websiteLink: "https://acom.netlify.app/",
-      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/67794fb2cfec0659b46801c81b6acf8744dc4216-1920x1080.png"],
+      websiteLink: "https://acom.vercel.app/",
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/c4827b3648e28e037e55f392b8aef2362c179ea8-1281x5252.png"],
       techUsed: ["Next13 - Frontend", "Tailwind CSS - Styling", "GraphQL - Database and CSM"],
       message: "New fashion capital."
+    },
+    {
+      id: "21",
+      sr: "21",
+      title: "Dev Priyansh",
+      teaser: "https://cdn.sanity.io/images/s9olv7lh/production/154e236f0d65145720c9b34dac018338bc02db14-1600x1003.jpg",
+      path: "devpriyansh",
+      introDescription: "My (Priyansh Sharma) personal portfolio, but not the normal portfolio you are expecting.",
+      websiteTeaser: "https://cdn.sanity.io/files/mdo42gqc/production/9fa2546f8bc66330bc016bbc09d5e68431482f32.mp4",
+      clientName: "Priyansh Sharma",
+      launchDate: "2023 Jan",
+      serviceProvided: ["Web Design", "SEO", "Website Development", "UI UX design", "Concept Design", "3D models", "Animations", "CMS"],
+      websiteLink: "https://devpriyansh.netlify.app/",
+      websiteImages: ["https://cdn.sanity.io/images/s9olv7lh/production/3eaefea81caccffc7fa81556ef19c3d9fb91f968-1284x7809.png"],
+      techUsed: ["Next13 - Frontend", "Tailwind CSS - Styling", "GraphQL - Database and CSM"],
+      message: "Hint - It even contain a game."
     },
   ];
   
 
 
 
-
-
-
-
-
+  export const footer_social_media = [
+    {
+      name: "Instagram",
+      url: "https://www.instagram.com/sparkspectrumstudios40/",
+      icon: FaInstagram,
+    },
+    {
+      name: "Youtube",
+      url: "https://www.youtube.com/channel/UC8027VywG5dracX6Ol0nwcw",
+      icon: AiOutlineYoutube,
+    },
+    {
+      name: "Whatsapp",
+      url: "https://wa.me/+917999937157?text=Hi There, We would like to know more about services offer by spark spectrum studios.",
+      icon: FaWhatsapp,
+    }
+  ];
+  

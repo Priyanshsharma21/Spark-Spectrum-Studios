@@ -45,41 +45,42 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData)
-    // emailjs
-    //   .sendForm('service_oig59jb', 'template_n3107lt', form.current, {
-    //     publicKey: 'LbbIL_gQxHYevjzCJ',
-    //   })
-    //   .then(
-    //     () => {
-    //       console.log('SUCCESS!');
-    //       toast.success('Details Submitted.', {
-    //         position: "top-center",
-    //         autoClose: 2000,
-    //         hideProgressBar: false,
-    //         closeOnClick: true,
-    //         pauseOnHover: true,
-    //         draggable: true,
-    //         progress: undefined,
-    //         theme: "colored",
-    //         transition: Slide,
-    //         });
-    //       resetForm();
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //       toast.error('oops! something went wrong.', {
-    //         position: "top-center",
-    //         autoClose: 2000,
-    //         hideProgressBar: false,
-    //         closeOnClick: true,
-    //         pauseOnHover: true,
-    //         draggable: true,
-    //         progress: undefined,
-    //         theme: "colored",
-    //         transition: Slide,
-    //         });
-    //     },
-    //   );
+    emailjs
+      .sendForm('service_7gog0mn', 'template_e4699a3', form.current, {
+        publicKey: 'iF8tA3_t5aKG9s5uw',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          toast.success('Details Submitted.', {
+            position: "top-center",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            transition: Slide,
+            });
+          resetForm();
+        },
+        (error) => {
+          console.log('FAILED...', error);
+          toast.error('oops! something went wrong.', {
+            position: "top-center",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            transition: Slide,
+            });
+        },
+      );
+
   };
   const { scrollYProgress } = useScroll();
   const yTransform = useTransform(scrollYProgress, [0, 1], [0, 200]);
@@ -244,8 +245,8 @@ const Contact = () => {
         </div>
       </div>
 
-
-      <Footer />
+      <ToastContainer />
+      <Footer />azdk
 
     </div>
   )

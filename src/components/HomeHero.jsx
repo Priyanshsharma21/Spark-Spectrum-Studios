@@ -4,6 +4,8 @@ import { FaArrowDown } from 'react-icons/fa6';
 import { IoIosPlay } from "react-icons/io";
 import { Button, Modal } from 'antd';
 import { useAnimeContext } from '../context/animeContext';
+import { FaArrowDownLong } from "react-icons/fa6";
+
 
 const HomeHero = () => {
   const [activeIndex1, setActiveIndex1] = useState(0);
@@ -221,7 +223,7 @@ const HomeHero = () => {
             ease: "easeInOut"
           }}
         >
-          <FaArrowDown className='h-arrow-icon' />
+          <img src="https://cdn.sanity.io/images/s9olv7lh/production/be77e220a3396ca9e42d0fc6e7a05796ba920f82-62x121.png" alt="arrow" />
         </motion.div>
       </div>
     </div>
