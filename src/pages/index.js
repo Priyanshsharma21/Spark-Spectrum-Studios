@@ -4,6 +4,7 @@ import Contact from './Contact'
 import Content from './Content'
 import Work from './Work'
 import WorkDetails from './WorkDetails'
+import ContentDetail from './ContentDetail'
 
 
 export {
@@ -12,5 +13,6 @@ export {
     Contact,
     Content,
     Work,
-    WorkDetails
+    WorkDetails,
+    ContentDetail
 }

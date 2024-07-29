@@ -7,6 +7,9 @@ import Footer from './Footer.jsx'
 import RunningRaster from './RunningRaster.jsx'
 import TypewriterText from './TypewriterText.jsx'
 import AboutBigPara from './AboutBigPara.jsx'
+import ContentAbout from './ContentAbout.jsx'
+import ContentProcess from './ContentProcess.jsx'
+import FaqMain from './FaqMain.jsx'
 
 export {
     Preloader,
@@ -17,5 +20,8 @@ export {
     Footer,
     RunningRaster,
     TypewriterText,
-    AboutBigPara
+    AboutBigPara,
+    ContentAbout,
+    ContentProcess,
+    FaqMain
 }

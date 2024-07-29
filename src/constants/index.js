@@ -1,6 +1,28 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
 import { AiOutlineYoutube } from "react-icons/ai";
+import {orxp1,
+  orxp2,
+  orxp3,
+  orxp4,
+  orxp5,
+  orxp6,
+  orxp7,
+
+  process1,
+process2,
+process3,
+process4,
+process5,
+process6,
+process7,
+process8,
+process9,
+process10,
+
+
+} from '../assets'
+
 
 export const navItems = [
     {
@@ -29,7 +51,6 @@ export const navItems = [
     },
   ]
 
-
 export const formOptions = {
     service : [
         {
@@ -56,8 +77,6 @@ export const formOptions = {
 
     timeframe : ["I need it in 7 days", "I need it in 15 days", "I need it in 1 month", "I need it in 2 months", "2+ months timeframe for this."]
 }
-
-
 
 export const aboutSection = [
     {
@@ -86,10 +105,6 @@ export const aboutSection = [
       yesorno: false,
     }
   ];
-
-
-
-
 
 export const workDetails = [
     {
@@ -442,10 +457,7 @@ export const workDetails = [
     },
   ];
   
-
-
-
-  export const footer_social_media = [
+export const footer_social_media = [
     {
       name: "Instagram",
       url: "https://www.instagram.com/sparkspectrumstudios40/",
@@ -463,3 +475,381 @@ export const workDetails = [
     }
   ];
   
+  export const contentCards = [
+    {
+      id : 1,
+      src : "https://cdn.sanity.io/images/s9olv7lh/production/d1280e85dd501947d7d861bcafebdd7d33f9037d-6756x5087.png",
+      client_name : "Orxa Energies",
+      path : "orxa",
+      introDescription : "Made content on Orxa Mantis -  11 reels and 7 posts, total Engagement of 40k accounts in 1.5 month on Instagram and LinkedIn.",
+      cover : "https://cdn.sanity.io/images/s9olv7lh/production/137f05c21e642298c97cc6673d962427cdae27b0-1080x1350.jpg",
+      softwareUsed : ["Premier Pro - Video Editing", "After Affects - Special effects & Editing", "Photoshop - Photo editing & Thumbnails",
+        "Adobe Fireflies - AI art generation", "Canva - Design & Illustration", "Figma - Design & Illustration", "Capcut - Video Editing"
+      ],
+      engagementDetails : [
+        {
+          title : "Reels",
+          value : "11",
+        },
+        {
+          title : "posts",
+          value : "7",
+        },
+        {
+          title : "Views",
+          value : "32k"
+        },
+        {
+          title : "Likes",
+          value : "3k"
+        },
+        {
+          title : "Share",
+          value : "4k",
+        },
+        {
+          title : "Comments",
+          value : "205"
+        },
+      ],
+
+      reels : [
+            "https://www.instagram.com/reel/C1JdknmSqsK/?utm_source=ig_web_copy_link",
+            "https://www.instagram.com/reel/C1QzLsxS3bW/?utm_source=ig_web_copy_link",
+            "https://www.instagram.com/reel/C1hS3AjS6Jx/?utm_source=ig_web_copy_link",
+            "https://www.instagram.com/reel/C1i274HyMgv/?utm_source=ig_web_copy_link",
+            "https://www.instagram.com/reel/C1t1Qu4SH2y/?utm_source=ig_web_copy_link",
+            "https://www.instagram.com/reel/C166UVzSr2P/?utm_source=ig_web_copy_link",
+            "https://www.instagram.com/reel/C2JnmYByz-x/?utm_source=ig_web_copy_link",
+            "https://www.instagram.com/reel/C2jHoyeSluc/?utm_source=ig_web_copy_link",
+            "https://www.instagram.com/reel/C2rNqUdM29A/?utm_source=ig_web_copy_link",
+            "https://www.instagram.com/reel/C2rOImZMVch/?utm_source=ig_web_copy_link",
+            "https://www.instagram.com/reel/C2y-TRKMZAS/?utm_source=ig_web_copy_link",
+        ],
+        posts : [
+            {
+                src: orxp1,
+                link: "https://www.instagram.com/p/C2uF4YIylg3/?utm_source=ig_web_copy_link",
+            },
+            {
+                src: orxp2,
+                link: "https://www.instagram.com/p/C1Oly_OS8Si/?utm_source=ig_web_copy_link",
+            },
+            {
+                src: orxp3,
+                link: "https://www.instagram.com/p/C1WMTemSTm6/?utm_source=ig_web_copy_link",
+            },
+            {
+                src: orxp4,
+                link: "https://www.instagram.com/p/C1q0VcJyqi6/?utm_source=ig_web_copy_link",
+            },
+            {
+                src: orxp5,
+                link: "https://www.instagram.com/p/C2PR33NyjKA/?utm_source=ig_web_copy_link",
+            },
+            {
+                src: orxp6,
+                link: "https://www.instagram.com/p/C2ZsQLBSXGG/?utm_source=ig_web_copy_link",
+            },
+            {
+                src: orxp7,
+                link: "https://www.instagram.com/p/C2e_OgEyOFG/?utm_source=ig_web_copy_link",
+            },
+            {
+                src: orxp7,
+                link: "https://www.instagram.com/p/C2uF4YIylg3/?utm_source=ig_web_copy_link",
+            }
+        ],
+
+        
+    },
+    {
+      id : 2,
+      src : "https://cdn.sanity.io/images/s9olv7lh/production/4cd24179ab40239df171d94697e9c80ccfbe2843-6868x5087.png",
+      client_name : "Dev With Yatin",
+      path : "dev-with-yatin",
+      introDescription : "Made 8 reels, total  1.05 million views, 41k likes, 1k comments, 33k shares in 2 months",
+      cover : "https://cdn.sanity.io/images/s9olv7lh/production/e7490382415c28f0b4ad576dee57c778fac131b6-5720x3238.png",
+      softwareUsed : ["Premier Pro - Video Editing", "Photoshop",
+        "Adobe Fireflies - AI art generation", "Figma - Design & Illustration", "Capcut - Video Editing"
+      ],
+      engagementDetails : [
+        {
+          title : "Reels",
+          value : "8",
+        },
+        {
+          title : "Views",
+          value : "1.05 million"
+        },
+        {
+          title : "Likes",
+          value : "41k"
+        },
+        {
+          title : "Share",
+          value : "33k",
+        },
+        {
+          title : "Comments",
+          value : "1k"
+        },
+      ],
+
+      reels : [
+        "https://www.instagram.com/reel/C3_bceryuaB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+        "https://www.instagram.com/reel/C4CS2exvu9u/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+        "https://www.instagram.com/reel/C4EorGMSt90/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+        "https://www.instagram.com/reel/C4HQBY4vg0j/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+        "https://www.instagram.com/reel/C4b1Uz7SdQF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+        "https://www.instagram.com/reel/C4e4QNEL-HQ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+        "https://www.instagram.com/reel/C3oZ_n9vqso/?utm_source=ig_web_copy_link",
+        "https://www.instagram.com/reel/C84NUDiykpY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    ],
+
+    },
+    {
+      id : 3,
+      src : "https://cdn.sanity.io/images/s9olv7lh/production/72b15abf9480c62c406936f0df344edc0f035a72-6784x5087.png",
+      client_name : "Poonams Cookingshala",
+      path : "poonams-cookingshala",
+      introDescription : "Made 10 videos and 4 reels, total 80k views and 4k likes",
+      cover : "https://cdn.sanity.io/images/s9olv7lh/production/72b15abf9480c62c406936f0df344edc0f035a72-6784x5087.png",
+      softwareUsed : ["Premier Pro - Video Editing", "Photoshop",
+        "Kinemaster - Video Editing", "Figma - Design & Illustration", "Capcut - Video Editing"
+      ],
+      engagementDetails : [
+        {
+          title : "Videos",
+          value : "15",
+        },
+        {
+          title : "Reels",
+          value : "4",
+        },
+        {
+          title : "Views",
+          value : "80k"
+        },
+        {
+          title : "Likes",
+          value : "4k"
+        },
+        {
+          title : "Share",
+          value : "2k",
+        },
+        {
+          title : "Comments",
+          value : "155"
+        },
+      ],
+
+      videos : [
+            "https://www.youtube.com/watch?v=sNea0pjsKYU",
+            "https://youtu.be/fEjyF2gA_Mk?si=XCxd9y1T5p7-jJjQ",
+            "https://youtu.be/Txxkb73HYJs?si=aLpVCGdHMSj4DIpE",
+            "https://youtu.be/TBWs6hRoFD4?si=YjOBi5Eup416Rp9v",
+            "https://youtu.be/VvmSCiPmu4s?si=M86zf25QmzyRRN5O",
+            "https://www.youtube.com/watch?v=tIzRcBDACHQ",
+            "https://www.youtube.com/watch?v=2D9krA13qhI",
+            "https://www.youtube.com/watch?v=ddJu0OnrryE",
+            "https://www.youtube.com/watch?v=P1yz5Q8sZBI",
+            "https://www.youtube.com/watch?v=jIF-gq4KTFQ",
+            "https://www.youtube.com/watch?v=0EfMBJPwvi0",
+            "https://www.youtube.com/watch?v=rejnS1MR1JQ",
+      ],
+
+      shorts : [
+        "https://youtube.com/shorts/5CBc5AbkER4?si=irAnBohYJGl-NWnc",
+        "https://youtube.com/shorts/xkZ0ofDtWlE?si=035sNocuA1QFGOO-",
+        "https://youtube.com/shorts/76ALfsanzBM?si=z6sFKEJM9d0hU26U"
+      ]
+    },
+    {
+      id : 4,
+      src : "https://cdn.sanity.io/images/s9olv7lh/production/029401eb1b727f05a3aa71387e8e9c8ad91b9ef1-6779x5087.png",
+      client_name : "MindBodyPS",
+      path : "mindbodyps",
+      introDescription : "Made around 20 fitness videos, teaching about health, fitness, nutrition.",
+      cover : "https://cdn.sanity.io/images/s9olv7lh/production/89b270e7b937f26c5b7d37dbffcb2f74fe2c7339-1079x1079.jpg",
+      softwareUsed : ["Premier Pro - Video Editing", "After Affects - Special effects & Editing", "Photoshop",
+        "Adobe Fireflies - AI art generation", "Figma - Design & Illustration", "Capcut - Video Editing"
+      ],
+      engagementDetails : [
+        {
+          title : "Videos",
+          value : "53",
+        },
+        {
+          title : "Reels",
+          value : "111",
+        },
+        {
+          title : "Views",
+          value : "90k"
+        },
+        {
+          title : "Likes",
+          value : "11k"
+        },
+        {
+          title : "Share",
+          value : "15k",
+        },
+        {
+          title : "Comments",
+          value : "1k"
+        },
+      ],
+
+      videos : [
+            "https://youtu.be/G0qYfq8ZIHg?si=av245I7_SgiWtapB",
+            "https://youtu.be/NcYYFE3IyLk?si=PEur1Ml7JSINV5Ge",
+            "https://youtu.be/zawLs_juuL4?si=ZAabRZYh2-_lFCzI",
+            "https://youtu.be/ZJMe0TBOvxA?si=VZ05CFeneFWQ_Ogz",
+            "https://youtu.be/__P6vExUAXI?si=eJbD7h5SmpkbDzVI",
+            "https://youtu.be/HXWRbr3qBYo?si=YezltbE8rwKw4Gse",
+            "https://youtu.be/y1XYMsJGDLs?si=vzzd5qIdLWE5x5Hc",
+            "https://youtu.be/JW5ZyaT4Ytc?si=0KMoSh8O9oOFZ7yA",
+            "https://www.youtube.com/watch?v=TJbjH0EjARA",
+            "https://www.youtube.com/watch?v=xrq3GB1_kjY",
+            "https://www.youtube.com/watch?v=pZnqzxYRJqI",
+            "https://www.youtube.com/watch?v=I0KywS9pcJ4",
+            "https://www.youtube.com/watch?v=CJCnRFjomgY",
+            "https://www.youtube.com/watch?v=mrG-APhauTg",
+            "https://www.youtube.com/watch?v=gWI2VA8j16Q",
+            "https://www.youtube.com/watch?v=3c4yQ2KI3c4"
+      ],
+
+      reels : [
+        "https://www.instagram.com/reel/C9jYvT8vBB8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "https://www.instagram.com/reel/C9vANZoy35X/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "https://www.instagram.com/reel/C9xgSDIS0LB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      ]
+    }
+  ]
+
+
+  export const processData = [
+    {
+        srno: 1,
+        title: "Briefing",
+        description: "Send me a detailed brief with the following information: who you are, your vision, project goals, target audience, the purpose of the video, required features, scope of the project, timeframes and deadlines, examples of other videos you like, and everything else you think is important.",
+        src: process1
+    },
+    {
+        srno: 2,
+        title: "Evaluation",
+        description: "I will closely review your brief and assess whether the project aligns with the terms and requirements of both parties. If there is a match, we will have an online meeting to discuss how to proceed and ensure we're on the same page.",
+        src:process2
+    },
+    {
+        srno: 3,
+        title: "KickOff",
+        description: "We discuss approaches and concepts to find the perfect solution for your needs. This includes brainstorming sessions to align on the video’s tone, style, and key messages. Multiple sessions can be held if necessary.",
+        src: process3
+    },
+    {
+        srno: 4,
+        title: "Script and Storyboard",
+        description: "I will work on the script and storyboard, laying out the video's narrative, scenes, and key moments. This is where we plan the video's structure and flow. After your feedback and approval, we proceed to the next phase.",
+        src: process4
+    },
+    {
+        srno: 5,
+        title: "Filming",
+        description: "If the project involves shooting new footage, this is where the action happens. We schedule and carry out the filming, ensuring all necessary scenes are captured with the highest quality.",
+        src: process5
+    },
+    {
+        srno: 6,
+        title: "Editing",
+        description: "This is where the magic happens. I will edit the footage, adding transitions, effects, and music to create a cohesive and compelling video. I will present you with a rough cut for initial feedback.",
+        src: process6
+    },
+    {
+        srno: 7,
+        title: "Review and Feedback",
+        description: "You review the rough cut and provide feedback. We will discuss any changes or adjustments needed to ensure the video meets your expectations and goals.",
+        src: process7
+    },
+    {
+        srno: 8,
+        title: "Final Cut",
+        description: "After implementing your feedback, I will finalize the edit. This includes fine-tuning the video, color correction, sound design, and adding any final touches. You will receive the final version for approval.",
+        src: process8
+    },
+    {
+        srno: 9,
+        title: "Quality Assurance",
+        description: "We conduct thorough testing on multiple devices and platforms to ensure the video plays perfectly everywhere. Any remaining bugs or issues are fixed. After your final approval, the video is ready to be delivered.",
+        src:process9
+    },
+    {
+        srno: 10,
+        title: "Delivery",
+        description: "The final video is delivered to you in your preferred formats. We also discuss any post-launch support or promotional strategies if needed.",
+        src: process10
+    }
+];
+
+
+
+export const faqs = [
+    {
+        question: "How much does a video edit/website/UI design cost at Spark Spectrum Studios?",
+        answer: "Well, how much does a unicorn cost? It depends on what you want it to do! Our prices vary based on your specific needs, the scope of the project, and any magical features you desire. Share your budget, and we'll conjure up exactly what you can expect!",
+        askedBy: "Asked by curious clients"
+    },
+    {
+        question: "How long will it take to create my amazing video/website/UI design?",
+        answer: "How long does it take to binge-watch your favorite series? For smaller projects, we usually take few days for videos, reels, small websites and designs, while larger endeavors might take months from the first episode (kickoff) to the finale (go-live).",
+        askedBy: "Asked by impatient project managers"
+    },
+    {
+        question: "Can you handle big projects?",
+        answer: "Absolutely! We’re like the Avengers of the digital world. Spark Spectrum Studios is part of a global network of design and development superheroes, ready to tackle any challenge.",
+        askedBy: "Asked by ambitious clients"
+    },
+    {
+        question: "Are you a video editor, designer, or developer?",
+        answer: "We’re all of the above! At Spark Spectrum Studios, we edit videos, design from scratch, and build everything in-house. For larger projects, we call in our superhero team for backup.",
+        askedBy: "Asked by everyone"
+    },
+    {
+        question: "What design trends can we expect from Spark Spectrum Studios?",
+        answer: "Think of futuristic holograms, neon lights, and 3D animations. Just kidding...or are we? Trends come and go, but our focus is on creating timeless designs. Keep an eye out for user-friendly interfaces, minimalistic designs, and yes, maybe a cat gif or two.",
+        askedBy: "Asked by trendy tech enthusiasts"
+    },
+    {
+        question: "Is that really you in the framed picture above?",
+        answer: "Yes, that’s us at the launch party of our first ever animated 3D website. We clean up pretty well, don’t we?",
+        askedBy: "Asked by observant visitors"
+    },
+    {
+        question: "Why did you name your studio Spark Spectrum Studios?",
+        answer: "Because we believe in sparking creativity across the full spectrum of digital possibilities. Plus, it sounds way cooler than 'Generic Design Agency.'",
+        askedBy: "Asked by curious minds"
+    },
+    {
+        question: "How do I become as awesome as Spark Spectrum Studios?",
+        answer: "Start by embracing your inner geek, watch a lot of tutorials, and maybe practice your superhero landing pose. Also, lots of coffee helps.",
+        askedBy: "Asked by aspiring creatives"
+    },
+    {
+        question: "Were you on a caffeine high while designing this website?",
+        answer: "Nope, just pure, unadulterated creative madness. And maybe a bit of chocolate.",
+        askedBy: "Asked by curious caffeine lovers"
+    },
+    {
+        question: "Why doesn’t Spark Spectrum Studios have as many followers on social media as I do?",
+        answer: "Because we’re too busy making amazing stuff for our clients! But hey, give us a follow and let’s fix that.",
+        askedBy: "Asked by social media enthusiasts"
+    },
+    {
+        question: "What’s hidden in the infamous hidden section of your website?",
+        answer: "Shh...it’s a secret! Just kidding, it’s where we keep our most prized possession: our collection of dad jokes and cat memes. And maybe a few Easter eggs.",
+        askedBy: "Asked by the adventurous few"
+    }
+];

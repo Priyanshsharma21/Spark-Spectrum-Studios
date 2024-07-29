@@ -135,7 +135,7 @@ const HomeHero = () => {
                 onMouseOver={handleMouseOver}
                 onMouseLeave={handleMouseOut}
                 preload="preload"
-                poster="https://images.pexels.com/photos/175773/pexels-photo-175773.jpeg?auto=compress&cs=tinysrgb&w=600"
+                poster="https://cdn.sanity.io/images/s9olv7lh/production/c75ee09042d133d1d4519998d70af5c1893a32c4-14525x8064.png"
                 muted
                 playsInline
                 loop
@@ -214,7 +214,7 @@ const HomeHero = () => {
 
       <div className="h-arrow-positioner">
         <motion.div
-          className="h-arrow-container"
+          className="h-arrow-container h-arrow"
           style={{ opacity: arrowOpacity }}
           animate={{ y: [0, 20, 0] }}
           transition={{
