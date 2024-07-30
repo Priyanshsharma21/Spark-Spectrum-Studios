@@ -25,7 +25,7 @@ const About = () => {
         },
         onComplete: () => {
           window.scrollTo({
-            top: document.documentElement.scrollHeight,
+            top:  window.scrollTo(0, 0),
             behavior: 'smooth',
           });
         },

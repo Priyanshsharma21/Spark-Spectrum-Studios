@@ -14,6 +14,7 @@ const HomeIntro = () => {
       });
     const { scrollYProgress } = useScroll();
     const yTransform = useTransform(scrollYProgress, [0, 1], [0, -200]);
+    const y2Transform = useTransform(scrollYProgress, [0, 1], [0, -100]);
 
     const handleAboutUs = ()=>{
         navigate("/about")
@@ -53,7 +54,7 @@ const HomeIntro = () => {
             </motion.p>
         </motion.div>
 
-        <motion.div className="i-main-headline-trigger"
+        <motion.div className="i-main-headline-trigger matrixno"
         whileInView={{y:[100,50,0], opacity:[0,0,1], filter: ["blur(10px)", "blur(0px)"]}}
         transition={{duration:0.5}}
         >
@@ -61,7 +62,6 @@ const HomeIntro = () => {
                 onMouseOver={()=>handleMouseOver("Already convinced?")}
                 onMouseLeave={handleMouseOut}
                 className="i-main-headline"
-                style={{ opacity: 1, transform: "matrix(1, 0, 0, 1, 0, 0)" }}
             >
                 Spark Studios creates highly functional, unique &amp; award-winning digital
                 products in the

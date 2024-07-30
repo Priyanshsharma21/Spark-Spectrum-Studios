@@ -12,9 +12,6 @@ const App = () => {
     setIsLoading(true);
 
     const loadContent = async () => {
-      // const LocomotiveScroll = (await import('locomotive-scroll')).default;
-      // const locomotiveScroll = new LocomotiveScroll();
-
       setTimeout(() => {
         setIsLoading(false);
         document.body.style.cursor = 'default';
@@ -32,7 +29,6 @@ const App = () => {
               {isLoading && <Preloader />}
           </AnimatePresence>
           <>
-            
             <Routes>
               <Route index path="/" element={<Home />} />
               <Route path="/about" element={<About />} />

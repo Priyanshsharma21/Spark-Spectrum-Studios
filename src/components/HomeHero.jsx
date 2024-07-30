@@ -1,11 +1,9 @@
 import { useScroll, useTransform, motion } from 'framer-motion';
 import React, { useEffect, useState, useRef } from 'react';
-import { FaArrowDown } from 'react-icons/fa6';
 import { IoIosPlay } from "react-icons/io";
-import { Button, Modal } from 'antd';
+import { Modal } from 'antd';
 import { useAnimeContext } from '../context/animeContext';
-import { FaArrowDownLong } from "react-icons/fa6";
-
+import { GoArrowDown } from "react-icons/go";
 
 const HomeHero = () => {
   const [activeIndex1, setActiveIndex1] = useState(0);
@@ -61,16 +59,17 @@ const HomeHero = () => {
         setSeconds(secs);
         setMilliseconds(millis);
 
-        if (remainingTime <= 0) {
-          video.currentTime = 0;
-          video.play();
+        if (remainingTime > 0) {
+          requestAnimationFrame(updateTimer);
         }
       };
 
-      video.addEventListener('timeupdate', updateTimer);
+      video.addEventListener('play', updateTimer);
+      video.addEventListener('seeked', updateTimer);
 
       return () => {
-        video.removeEventListener('timeupdate', updateTimer);
+        video.removeEventListener('play', updateTimer);
+        video.removeEventListener('seeked', updateTimer);
       };
     }
   }, [videoRef]);
@@ -215,15 +214,11 @@ const HomeHero = () => {
       <div className="h-arrow-positioner">
         <motion.div
           className="h-arrow-container h-arrow"
+          animate={{ y: [0, -10, 0] }}
+          transition={{ repeat: Infinity, duration: 2 }}
           style={{ opacity: arrowOpacity }}
-          animate={{ y: [0, 20, 0] }}
-          transition={{
-            duration: 1.5,
-            repeat: Infinity,
-            ease: "easeInOut"
-          }}
         >
-          <img src="https://cdn.sanity.io/images/s9olv7lh/production/be77e220a3396ca9e42d0fc6e7a05796ba920f82-62x121.png" alt="arrow" />
+          <GoArrowDown className="text-3xl text-white" />
         </motion.div>
       </div>
     </div>

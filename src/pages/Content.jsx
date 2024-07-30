@@ -1,5 +1,4 @@
 import { useScroll, useTransform, motion } from 'framer-motion'
-import { useAnimeContext } from '../context/animeContext'
 import React from 'react'
 import { Col, Row } from 'antd'
 import { useNavigate } from 'react-router-dom'
@@ -8,17 +7,8 @@ import { ContentAbout, ContentProcess, FaqMain, Footer } from '../components'
 
 
 const Content = () => {
-  const { setMessage } = useAnimeContext()
   const navigate = useNavigate()
-  
-  const handleMouseOver = (message)=>{
-    setMessage(message)
-  }
-
-  const handleMouseOut = ()=>{
-    setMessage("Hi! How you doin'?")
-  }
-
+ 
   const handleClick = (path)=>{
     navigate(`/content/${path}`)
   }

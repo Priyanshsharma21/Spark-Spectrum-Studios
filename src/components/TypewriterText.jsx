@@ -9,8 +9,8 @@ const TypewriterText = ({ text }) => {
     visible: (i) => ({
       opacity: 1,
       transition: {
-        delay: i * 0.05, // Adjust delay as needed
-        duration: 0.5, // Adjust duration as needed
+        delay: i * 0.05, 
+        duration: 0.5,
         ease: 'linear'
       }
     })

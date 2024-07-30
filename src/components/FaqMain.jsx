@@ -17,7 +17,7 @@ const FaqMain = () => {
         
         <div className="w-full mx-auto">
           {faqs.map((faq, index) => (
-            <div key={index}>
+            <div key={index} className='faq-big-box'>
               <hr className="w-full lg:mt-10 md:mt-12 md:mb-8 my-8 faq-border" />
               <div className="w-full give_faq_padding">
                 <div onClick={() => toggleQuestion(index)} id="mainHeading" className="flex faq_answer_container cursor-pointer justify-between items-center w-full">

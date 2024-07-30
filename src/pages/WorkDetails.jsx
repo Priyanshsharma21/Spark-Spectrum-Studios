@@ -29,7 +29,6 @@ const WorkDetails = () => {
     navigate(`/work/${nextProjectID}`)
   }
 
-
   return (
     <div className="project-detail bg-[#121212]">
       <div className="pd-intro">
@@ -57,6 +56,7 @@ const WorkDetails = () => {
       <motion.div style={{ y: yTransform }} className="pd-vid-positioner">
         <div className="pd-dark-side" />{" "}
         <video
+          key={workDetail?.websiteTeaser}
           preload="preload"
           poster={workDetail?.teaser}
           muted

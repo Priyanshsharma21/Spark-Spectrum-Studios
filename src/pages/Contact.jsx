@@ -10,6 +10,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 const Contact = () => {
   const form = useRef();
   const [budgetName, setBudgetName] = useState("Website development")
+  const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     company : '',
@@ -44,7 +45,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData)
     emailjs
       .sendForm('service_7gog0mn', 'template_e4699a3', form.current, {
         publicKey: 'iF8tA3_t5aKG9s5uw',
@@ -63,7 +63,8 @@ const Contact = () => {
             theme: "colored",
             transition: Slide,
             });
-          resetForm();
+            resetForm();
+            setLoading(false);
         },
         (error) => {
           console.log('FAILED...', error);
@@ -78,6 +79,8 @@ const Contact = () => {
             theme: "colored",
             transition: Slide,
             });
+            resetForm();
+            setLoading(false);
         },
       );
 
@@ -221,7 +224,7 @@ const Contact = () => {
                   </span>
                 </div>
               </div>{" "}
-              <input id="submit" type="submit" defaultValue="Submit" className="cursor-pointer" />
+              <input disabled={loading} id="submit" type="submit" defaultValue={loading ? 'Loading...' : 'Submit'} className="cursor-pointer" />
             </div>
           </form>
         </div>
@@ -246,7 +249,7 @@ const Contact = () => {
       </div>
 
       <ToastContainer />
-      <Footer />azdk
+      <Footer />
 
     </div>
   )

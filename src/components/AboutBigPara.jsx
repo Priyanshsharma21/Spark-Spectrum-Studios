@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useEffect } from 'react';
 import gsap from 'gsap';
 import { useNavigate } from 'react-router-dom';
-
+import { GiChainedArrowHeads } from "react-icons/gi";
 
 const AboutBigPara = ({paragraphs}) => {
     const [currentPara, setCurrentPara] =useState(0)
@@ -11,7 +11,6 @@ const AboutBigPara = ({paragraphs}) => {
     const handleRedirect = ()=>{
         navigate("/contact")
       }
-    
     useEffect(() => {
         const staggerBoxes = document.querySelectorAll('.stagger-box');
         gsap.fromTo(
@@ -28,7 +27,7 @@ const AboutBigPara = ({paragraphs}) => {
             },
             onComplete: () => {
               window.scrollTo({
-                top: document.documentElement.scrollHeight,
+                top: window.scrollTo(0, 0),
                 behavior: 'smooth',
               });
             },
@@ -40,7 +39,6 @@ const AboutBigPara = ({paragraphs}) => {
         if(currentPara < paragraphs.length)
             setCurrentPara(prev=>prev+1)
         }
-console.log(currentPara)
   return (
     <div className="about text-[#121212]">
          <div className="">
@@ -80,13 +78,14 @@ console.log(currentPara)
             ):(
                 <span className="yesorno cursor-pointer">
                 {" "}
-                    <span
-                        className="about-text-l stagger-box like answer answer1N about-part1"
+                    <div
+                        className="about-text-l flex stagger-box like answer answer1N about-part1"
                         style={{ opacity: 0.2 }}
                         onClick={handleNext}
                     >
-                        Next
-                    </span>
+                        <div className={currentPara == 0 ? "ml-0" : "next-watch"}>Next</div>
+                        <GiChainedArrowHeads className="next-arrow-main ml-2"/>
+                    </div>
                     <div className="ov-hl-spacer"></div>
                 </span>
             )}

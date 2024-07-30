@@ -25,7 +25,7 @@ export default {
         },
         loopTextTop: {
           '0%': { transform: 'translateY(0)' },
-          '100%': { transform: 'translateY(10)' },
+          '100%': { transform: 'translateY(-5%)' },
         },
         grid: {
           "0%": { transform: "translateY(-50%)" },

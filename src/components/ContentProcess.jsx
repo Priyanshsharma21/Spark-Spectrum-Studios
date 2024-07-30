@@ -51,6 +51,7 @@ const Card = ({ card }) => {
       key={card.srno}
       className="group ml-[2rem] rounded-xl relative processCardMain overflow-hidden bg-[#E04E36]"
     >
+      <div className="c-card-content-main">
       <div className="processCardImg flex justify-center mt-5">
           <img src={card.src} alt={card.title} className="processCard_img"/>
       </div>
@@ -67,6 +68,7 @@ const Card = ({ card }) => {
         <div className="processDescription font-medium">
           {card.description}
         </div>
+      </div>
       </div>
     </div>
   );

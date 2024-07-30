@@ -28,11 +28,16 @@ const RunningRaster = () => {
             <div className="raster-line-h1" />
             <div className="raster-line-h1" />
             <div className="raster-line-h1" />
+            {Array.from({length : 57}, (_, i)=>(
+              <div className="raster-line-h1" />
+            ))}
             </div>{" "}
             <div
             className="raster-container-h2"
             >
-            <div className="raster-line-h1" />
+            {Array.from({length : 57}, (_, i)=>(
+              <div className="raster-line-h1" />
+            ))}
             <div className="raster-line-h1" />
             <div className="raster-line-h1" />
             <div className="raster-line-h1" />

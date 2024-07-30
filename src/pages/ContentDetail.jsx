@@ -4,6 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { Row, Col } from 'antd';
 import { InstagramEmbed, YouTubeEmbed } from 'react-social-media-embed';
+import { Footer } from '../components';
 
 const ContentDetail = () => {
   const [contentDetail, setContentDetail] = useState(null);
@@ -36,7 +37,7 @@ const ContentDetail = () => {
     return contentDetail?.reels?.map((reel, index) => (
       <Col xs={24} sm={24} md={12} lg={8} xl={8} key={index}>
         <div className="reel-container" onClick={() => handleRedirect(reel)}>
-          <InstagramEmbed url={reel} width="100%" height="100%" />
+          <InstagramEmbed key={reel} url={reel} width="100%" height="100%" />
         </div>
       </Col>
     ));
@@ -45,7 +46,7 @@ const ContentDetail = () => {
   const renderVideos = () => {
     return contentDetail?.videos?.map((video, index) => (
       <div className="video-container mt-10" key={index}>
-        <YouTubeEmbed url={video} width="100%" height="600px" />
+        <YouTubeEmbed key={video} url={video} width="100%" height="600px" />
       </div>
     ));
   };
@@ -54,7 +55,7 @@ const ContentDetail = () => {
     return contentDetail?.posts?.map((post, index) => (
       <Col xs={24} sm={24} md={12} lg={8} xl={8} key={index} onClick={() => handleRedirect(post.link)}>
         <div className="post-container">
-          <img src={post.src} alt="" className='w-full h-full object-cover rounded-xl' />
+          <img key={post.link} src={post.src} alt="" className='w-full h-full object-cover rounded-xl' />
         </div>
       </Col>
     ));
@@ -64,7 +65,7 @@ const ContentDetail = () => {
     return contentDetail?.shorts?.map((short, index) => (
       <Col xs={24} sm={24} md={12} lg={8} xl={8} key={index}>
         <div className="short-container">
-          <YouTubeEmbed url={short} width="100%" height={400} />
+          <YouTubeEmbed key={short} url={short} width="100%" height={550} />
         </div>
       </Col>
     ));
@@ -116,7 +117,7 @@ const ContentDetail = () => {
       <motion.div style={{ y: yTransform }} className="pd-vid-positioner">
         <div className="pd-dark-side" />
         <div className="c-img-block">
-          <img className="pd-showreel w-full h-full object-cover" src={contentDetail?.cover} alt={contentDetail?.client_name} />
+          <img key={contentDetail?.cover} className="pd-showreel w-full h-full object-cover" src={contentDetail?.cover} alt={contentDetail?.client_name} />
         </div>
       </motion.div>
 
@@ -204,6 +205,13 @@ const ContentDetail = () => {
           </>
         )}
       </div>
+
+      
+      <div className="pd-link-next-sub next-client" onClick={handleNext}>
+        <span className="pd-link-text-sub">next client</span>
+      </div>
+
+      <Footer />
     </div>
   );
 };
