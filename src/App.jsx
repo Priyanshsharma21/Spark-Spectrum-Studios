@@ -4,9 +4,11 @@ import { AnimatePresence } from 'framer-motion';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { About, Contact, Home, Content, Work, WorkDetails, ContentDetail } from './pages';
 
+
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   const { pathname } = useLocation();
+
 
   useEffect(() => {
     setIsLoading(true);
@@ -21,6 +23,16 @@ const App = () => {
 
     loadContent();
   }, [pathname]);
+
+
+  useEffect( () => {
+    (
+      async () => {
+          const LocomotiveScroll = (await import('locomotive-scroll')).default
+          const locomotiveScroll = new LocomotiveScroll();
+      }
+    )()
+  }, [])
 
   return (
     <div>

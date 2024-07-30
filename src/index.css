@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jomolhari&display=swap&family=Cinzel:wght@400..900&display=swap&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
+@import '../node_modules/locomotive-scroll/dist/locomotive-scroll';
 
 @tailwind base;
 @tailwind components;
@@ -1486,7 +1486,7 @@ img, video {
   margin-top: 0vw;
 }
 .c-soft-use{
-  margin-top: 4cqb;
+  margin-top: 4rem;
 }
 .pd-awards-box {
   position: relative;
