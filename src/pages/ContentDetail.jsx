@@ -122,7 +122,7 @@ const ContentDetail = () => {
       </motion.div>
 
       <div className="pd-subinfo-box c-subinfo-box">
-        <div className="pd-awards-box">
+        <div className="pd-awards-box c-soft-use">
           <h4 className="pd-awards-hl">Software Used</h4>
           {contentDetail?.softwareUsed.map((eng, i) => (
             <div className="pd-award-mask flex justify-between" key={i}>
