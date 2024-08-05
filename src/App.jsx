@@ -35,7 +35,7 @@ const App = () => {
   }, [])
 
   return (
-    <div>
+    <div style={{paddingTop : "env(safe-area-inset-top)"}}>
           {isLoading ? "" : <Navbar />}
           <AnimatePresence mode='wait'>
               {isLoading && <Preloader />}

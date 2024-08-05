@@ -20,7 +20,7 @@ const WorkDetails = () => {
     if(workDetailId < workDetails.length){
       setNextProjectID(workDetails[workDetailId].path)
     }else{
-      setNextProjectID("ukenko")
+      setNextProjectID("saket")
     }
     setWorkDetail(work)
   },[id])

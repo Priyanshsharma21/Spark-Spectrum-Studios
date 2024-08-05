@@ -25,7 +25,7 @@ const ProjectTeaser = () => {
   }
 
   const handleProjectRedirect = ()=>{
-    navigate("/work/ukenko")
+    navigate("/work/saket")
   }
 
   return (
