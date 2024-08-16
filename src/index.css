@@ -305,6 +305,8 @@
   color: #e2e2e2 !important;
   border-radius: 20rem !important;
   transition: all 0.2s linear !important;
+  display: flex !important;
+  justify-content : center !important;
 }
 .ant-modal-close:hover{
   color: #B46633 !important;
@@ -1644,6 +1646,13 @@ img, video {
   color: #B46633;
 }
 
+.pd-service-main{
+  order: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .c-sec-1{
   padding-top:12rem ;
 }
@@ -1653,6 +1662,15 @@ img, video {
   top: 5px;
   right: 34.6%;
   animation: twinkle 1.5s infinite ease-in-out;
+}
+
+.pd-facts-box {
+  width: calc(29.16667vw - 20px);
+  margin-left: 28.83333vw;
+}
+.pd-services-box {
+  width: 29.16667vw;
+  padding-right: 20.83333vw;
 }
 
 @keyframes twinkle {
@@ -1922,7 +1940,9 @@ img, video {
 
 .next-client{
   position: relative;
-  top: 8rem;
+  margin-top: 10rem;
+  display :flex;
+  justify-content : center;
 }
 @media (max-width: 1367px) {
   .contact-form-section {
@@ -2603,6 +2623,15 @@ img, video {
 
   .next-watch{
     margin-left: 1rem;
+  }
+
+  .pd-facts-box {
+    margin-left: 12.16667vw;
+    margin-top: 50px;
+  }
+  .pd-services-box {
+    padding-right: 3.16667vw;
+    margin-top: 50px;
   }
 }
 

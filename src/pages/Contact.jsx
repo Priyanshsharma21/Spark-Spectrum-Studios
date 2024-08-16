@@ -13,7 +13,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
-    company : '',
+    contact: '',
     email: '',
     service: '',
     budget: '',
@@ -25,6 +25,7 @@ const Contact = () => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
+
   const handleServiceChange = (e) => {
     const value = e.target.value;
     setBudgetName(value)
@@ -34,7 +35,7 @@ const Contact = () => {
   const resetForm = () => {
     setFormData({
       name: '',
-      company : '',
+      contact: '',
       email: '',
       service: '',
       budget: '',
@@ -46,7 +47,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm('service_7gog0mn', 'template_e4699a3', form.current, {
+      .sendForm('service_7gog0mn', 'template_vlqyc18', form.current, {
         publicKey: 'iF8tA3_t5aKG9s5uw',
       })
       .then(
@@ -62,13 +63,13 @@ const Contact = () => {
             progress: undefined,
             theme: "colored",
             transition: Slide,
-            });
-            resetForm();
-            setLoading(false);
+          });
+          resetForm();
+          setLoading(false);
         },
         (error) => {
           console.log('FAILED...', error);
-          toast.error('oops! something went wrong.', {
+          toast.error('Oops! Something went wrong.', {
             position: "top-center",
             autoClose: 2000,
             hideProgressBar: false,
@@ -78,13 +79,13 @@ const Contact = () => {
             progress: undefined,
             theme: "colored",
             transition: Slide,
-            });
-            resetForm();
-            setLoading(false);
+          });
+          resetForm();
+          setLoading(false);
         },
       );
-
   };
+
   const { scrollYProgress } = useScroll();
   const yTransform = useTransform(scrollYProgress, [0, 1], [0, 200]);
 
@@ -94,7 +95,6 @@ const Contact = () => {
       <div className="c-headline-container">
         <span className="c-headline">{"Let's start your project together:"}</span>
       </div>
-
 
       <div className="form">
         <div className="contact-form-container">
@@ -115,14 +115,14 @@ const Contact = () => {
             <div className="contact-form-section">
               <div className="contact-form-section-bg" style={{ opacity: 0 }} />{" "}
               <div className="contact-form-section-line" />{" "}
-              <label htmlFor="company">Your company *</label>{" "}
+              <label htmlFor="contact">Your WhatsApp contact *</label>{" "}
               <input
                 onChange={handleChange}
                 required="required"
                 type="text"
-                id="company"
-                name="company"
-                placeholder="Your company.."
+                id="contact"
+                name="contact"
+                placeholder="Your WhatsApp number."
               />
             </div>{" "}
             <div className="contact-form-section">
@@ -135,7 +135,7 @@ const Contact = () => {
                 id="email"
                 onChange={handleChange}
                 name="email"
-                placeholder="Your email.."
+                placeholder="Your email address."
                 title="The domain portion of the email address is invalid (the portion after the @)."
                 pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$"
               />
@@ -145,7 +145,7 @@ const Contact = () => {
               <div className="contact-form-section-line" />{" "}
               <label htmlFor="service">What service you like to have from us? *</label>{" "}
               <select required="required" id="service" name="service"
-              onChange={handleServiceChange}
+                onChange={handleServiceChange}
               >
                 <option
                   value=""
@@ -153,10 +153,10 @@ const Contact = () => {
                   selected="selected"
                   hidden="hidden"
                 >
-                 What service you like to have from us?
+                  What service you like to have from us?
                 </option>{" "}
                 {formOptions["service"].map((item,i)=>(
-                  <option value={item.name}>{item.name}</option>
+                  <option key={i} value={item.name}>{item.name}</option>
                 ))}
               </select>{" "}
               <FaArrowDown className='text-[#b46633] contact-form-arrow '/>
@@ -164,9 +164,9 @@ const Contact = () => {
             <div className="contact-form-section">
               <div className="contact-form-section-bg" style={{ opacity: 0 }} />{" "}
               <div className="contact-form-section-line" />{" "}
-              <label htmlFor="find">Budget for the {budgetName}? *</label>{" "}
+              <label htmlFor="budget">Budget for the {budgetName}? *</label>{" "}
               <select required="required" id="budget" name="budget"
-              onChange={handleChange}
+                onChange={handleChange}
               >
                 <option
                   value=""
@@ -177,7 +177,7 @@ const Contact = () => {
                   Budget for the {budgetName}?
                 </option>{" "}
                 {formOptions["budget"][budgetName].map((item,i)=>(
-                  <option value={item}>{item}</option>
+                  <option key={i} value={item}>{item}</option>
                 ))}
               </select>{" "}
               <FaArrowDown className='text-[#b46633] contact-form-arrow '/>
@@ -185,9 +185,9 @@ const Contact = () => {
             <div className="contact-form-section">
               <div className="contact-form-section-bg" style={{ opacity: 0 }} />{" "}
               <div className="contact-form-section-line" />{" "}
-              <label htmlFor="find">Time frame of the project? *</label>{" "}
+              <label htmlFor="eta">Time frame of the project? *</label>{" "}
               <select required="required" id="eta" name="eta"
-              onChange={handleChange}
+                onChange={handleChange}
               >
                 <option
                   value=""
@@ -197,8 +197,8 @@ const Contact = () => {
                 >
                   Time frame of the project?
                 </option>{" "}
-                {formOptions["timeframe"].map(item=>(
-                  <option value={item}>{item}</option>
+                {formOptions["timeframe"].map((item, i) => (
+                  <option key={i} value={item}>{item}</option>
                 ))}
               </select>{" "}
               <FaArrowDown className='text-[#b46633] contact-form-arrow '/>
@@ -212,7 +212,6 @@ const Contact = () => {
                 id="message"
                 name="message"
                 placeholder="Please tell us about scope, requirements, features ..."
-                defaultValue={""}
               />
             </div>{" "}
             <div className="contact-form-submit">
@@ -224,12 +223,11 @@ const Contact = () => {
                   </span>
                 </div>
               </div>{" "}
-              <input disabled={loading} id="submit" type="submit" defaultValue={loading ? 'Loading...' : 'Submit'} className="cursor-pointer" />
+              <input disabled={loading} id="submit" type="submit" value={loading ? 'Loading...' : 'Submit'} className="cursor-pointer" />
             </div>
           </form>
         </div>
       </div>
-
 
       <div className="c-ceo-container">
         <motion.div

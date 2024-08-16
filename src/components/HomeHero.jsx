@@ -134,7 +134,7 @@ const HomeHero = () => {
                 onMouseOver={handleMouseOver}
                 onMouseLeave={handleMouseOut}
                 preload="preload"
-                poster="https://cdn.sanity.io/images/s9olv7lh/production/c75ee09042d133d1d4519998d70af5c1893a32c4-14525x8064.png"
+                poster="https://cdn.sanity.io/images/s9olv7lh/production/eb74031deaf4c29001d683a6c98448a56a616f98-1423x1080.png"
                 muted
                 playsInline
                 loop
@@ -146,12 +146,12 @@ const HomeHero = () => {
             </div>
           </motion.div>
 
-          <Modal width="100%" className='' open={isModalOpen} onCancel={handleCancel}>
+          <Modal width="100%" open={isModalOpen} onCancel={handleCancel}>
             <div className="h-showreel-video-main">
               <video
                 ref={modalVideoRef}
                 preload="preload"
-                poster="https://images.pexels.com/photos/175773/pexels-photo-175773.jpeg?auto=compress&cs=tinysrgb&w=600"
+                poster="https://cdn.sanity.io/images/s9olv7lh/production/eb74031deaf4c29001d683a6c98448a56a616f98-1423x1080.png"
                 controls
                 playsInline
                 loop

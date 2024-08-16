@@ -64,7 +64,7 @@ const HomeIntro = () => {
                 className="i-main-headline"
             >
                 Spark Studios creates highly functional, unique &amp; award-winning digital
-                products in the
+                products in the{" "}
                 <span className="fat">most uncomplicated way</span> possible.
             </h1>
         </motion.div>
@@ -89,8 +89,6 @@ const HomeIntro = () => {
                 about us
             </span>
         </div>
-
-
 
     </div>
   )
