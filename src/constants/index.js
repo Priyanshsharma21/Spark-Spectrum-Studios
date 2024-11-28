@@ -126,6 +126,39 @@ export const aboutSection = [
     {
       id: "2",
       sr: "2",
+      title: "Pathfinder",
+      teaser: "https://image.lexica.art/full_webp/0dcfa59c-3233-4447-8dd9-497bf7b0e25e",
+      path: "path-finder",
+      introDescription: "From Possibility to Competitive Edge (0-1) - Your startup Sherpa.",
+      webTeaser: "https://res.cloudinary.com/dfuketdb1/video/upload/v1732776462/Spark/path_aok7cf.mp4",
+      clientName: "Pathfinder (Konstellation)",
+      launchDate: "2024 Sept",
+      serviceProvided: ["UI/UX design", "Development", "CMS", "Animations"],
+      websiteLink: "https://path-finder.io",
+      websiteImages: ["https://res.cloudinary.com/dfuketdb1/image/upload/v1732776203/Spark/Group_289310_bqheip.png"],
+      techUsed: ["Next15 - Frontend Framework", "Context API - State management", "GSAP - Complex animations", "Framer Motion - Animations",  "Three.js - 3D model of person", "Lenis - Smooth Scrolling", "Figma - Designing", "Photoshop - Photo editing", "Blender - 3D modeling"],
+      message: "Pathfinder - Your startup Sherpa."
+    },
+    {
+      id: "3",
+      sr: "3",
+      title: "Walk Wise",
+      teaser: "https://image.lexica.art/full_webp/926734eb-abb2-4fea-b68d-ca758e40f3c7",
+      path: "walkwise",
+      introDescription: "Step into Excellence.",
+      webTeaser: "https://res.cloudinary.com/dfuketdb1/video/upload/v1732776433/Spark/Recording_2024-11-28_121629_faypjp.mp4",
+      clientName: "Walk Wise",
+      launchDate: "2024 Sept",
+      serviceProvided: ["UI/UX design", "Development", "Content Writing", "CMS", "Animations"],
+      websiteLink: "https://walkwise.in",
+      websiteImages: ["https://res.cloudinary.com/dfuketdb1/image/upload/v1732776302/Spark/Frame_48096275_2_hm8veu.png"],
+      techUsed: ["Next15 - Frontend development", "Context API - State management", "GSAP - Complex animations", "Framer Motion - Animations",  "Three.js - 3D model of person", "Lenis Scroll - Smooth Scrolling", "Figma - Designing", "Photoshop - Photo editing", "Cloudinary - Image storage"],
+      message: "Step into Excellence."
+    },
+
+    {
+      id: "4",
+      sr: "4",
       title: "Ukenko",
       teaser: "https://image.lexica.art/full_webp/d345bb7a-523c-4318-97b0-2ec72c947501",
       path: "ukenko",
@@ -144,8 +177,8 @@ export const aboutSection = [
       message: "Free AI workout plan waiting for you..."
     },
     {
-      id: "3",
-      sr: "3",
+      id: "5",
+      sr: "5",
       title: "Orxa Energies",
       teaser: "https://cdn.sanity.io/images/s9olv7lh/production/142694440b050fd4bc237312d1a485be40a78d32-1080x1350.jpg",
       path: "orxa-energies",
@@ -161,8 +194,8 @@ export const aboutSection = [
     },
     
     {
-      id: "4",
-      sr: "4",
+      id: "6",
+      sr: "6",
       title: "PinZeal",
       teaser: "https://image.lexica.art/full_webp/2025e86c-6ac8-4111-b1ee-32ae0836f0c8",
       path: "pinzeal",
@@ -183,8 +216,8 @@ export const aboutSection = [
     },
   
     {
-      id: "5",
-      sr: "5",
+      id: "7",
+      sr: "7",
       title: "DoTok",
       teaser: "https://image.lexica.art/full_webp/20833a14-ca1b-41d7-879e-2c9d78a7aa8b",
       path: "dotok",
@@ -199,8 +232,8 @@ export const aboutSection = [
         message: "Everyone's favorite."
     },
     {
-      id: "6",
-      sr: "6",
+      id: "8",
+      sr: "8",
       title: "Pexel.AI",
       teaser: "https://image.lexica.art/full_webp/5408db0a-5238-41ea-9622-9adaf50b7cf1",
       path: "pexel-ai",
@@ -215,8 +248,8 @@ export const aboutSection = [
        message: "AI-driven image perfection."
     },
     {
-      id: "7",
-      sr: "7",
+      id: "9",
+      sr: "9",
       title: "Libra Analytics",
       teaser: "https://image.lexica.art/full_webp/dc432fb1-4705-42b2-a604-564f43fd0761",
       path: "libra-analytics",
@@ -231,8 +264,8 @@ export const aboutSection = [
        message: "Transforming data into insights."
     },
     {
-      id: "8",
-      sr: "8",
+      id: "10",
+      sr: "10",
       title: "lofi.dev",
       teaser: "https://image.lexica.art/full_webp/549c08c2-ea3b-4164-9a8e-fb24e24e6f89",
       path: "lofi-dev",
@@ -248,8 +281,8 @@ export const aboutSection = [
       message: "Relax . Chill . Code"
     },
     {
-      id: "9",
-      sr: "9",
+      id: "11",
+      sr: "11",
       title: "Trioinovations",
       teaser: "https://image.lexica.art/full_webp/0182d5d8-3a67-496f-a78b-182211fe2141",
       path: "trioinovations",
@@ -264,8 +297,8 @@ export const aboutSection = [
       message: "Innovative solutions for a better future."
     },
     {
-      id: "10",
-      sr: "10",
+      id: "12",
+      sr: "12",
       title: "Javascript Academy",
       teaser: "https://image.lexica.art/full_webp/1cda0a91-1aca-4c17-ae53-a8357f943859",
       path: "javascript-academy",
@@ -280,8 +313,8 @@ export const aboutSection = [
       message: "Make detailed notes using our free AI.(FREE)"
     },
     {
-      id: "11",
-      sr: "11",
+      id: "13",
+      sr: "13",
       title: "Sunshine Recreation",
       teaser: "https://image.lexica.art/full_webp/606bce3c-ae86-4612-96f2-faf5f7e98091",
       path: "sunshine-recreation",
@@ -296,8 +329,8 @@ export const aboutSection = [
       message: "Bringing joy and learning to kids."
     },
     {
-      id: "12",
-      sr: "12",
+      id: "14",
+      sr: "14",
       title: "Sociomate",
       teaser: "https://image.lexica.art/full_webp/25ef1c15-af29-4aac-b4de-ecb3cb85f1be",
       path: "sociomate",
@@ -312,8 +345,8 @@ export const aboutSection = [
        message: "Your social media companion."
     },
     {
-      id: "13",
-      sr: "13",
+      id: "15",
+      sr: "15",
       title: "REVU 3.0",
       teaser: "https://cdn.sanity.io/images/s9olv7lh/production/6f1c3ae74fee8cc82e7f6be47cb16bf896639a33-2880x1566.png",
       path: "revu-3-0",
@@ -328,8 +361,8 @@ export const aboutSection = [
       message: "All in one movies application."
     },
     {
-      id: "14",
-      sr: "14",
+      id: "16",
+      sr: "16",
       title: "Priyansh Blogs",
       teaser: "https://image.lexica.art/full_webp/1be0ddd5-3260-444f-91e0-24f2e701d0e6",
       path: "priyansh-blogs",
@@ -344,8 +377,8 @@ export const aboutSection = [
       message: "Insights and stories from Priyansh.(ME)"
     },
     {
-      id: "15",
-      sr: "15",
+      id: "17",
+      sr: "17",
       title: "KachiCom",
       teaser: "https://image.lexica.art/full_webp/160e6374-ceee-4338-875b-40245aff3518",
       path: "kachicom",
@@ -360,8 +393,8 @@ export const aboutSection = [
        message: "Ultimate Ecommerce Services."
     },
     {
-      id: "16",
-      sr: "16",
+      id: "18",
+      sr: "18",
       title: "UAE Rilms",
       teaser: "https://image.lexica.art/full_webp/38303ff8-088f-4608-92c3-eeea17013948",
       path: "uae-rilms",
@@ -376,8 +409,8 @@ export const aboutSection = [
       message: "Innovative real estate solutions in UAE."
     },
     {
-      id: "17",
-      sr: "17",
+      id: "19",
+      sr: "19",
       title: "ICrypto",
       teaser: "https://image.lexica.art/full_webp/5f2f4533-cd51-40f5-8a51-11bc8affecd7",
       path: "icrypto",
@@ -392,8 +425,8 @@ export const aboutSection = [
        message: "Cryptocurrency and News."
     },
     {
-      id: "18",
-      sr: "18",
+      id: "20",
+      sr: "20",
       title: "YT Transcriber",
       teaser: "https://image.lexica.art/full_webp/0c224b06-09ef-425a-baa2-6c41fba892ea",
       path: "yt-transcriber",
@@ -408,8 +441,8 @@ export const aboutSection = [
       message: "Effortless YouTube video transcriptions."
     },
     {
-      id: "19",
-      sr: "19",
+      id: "21",
+      sr: "21",
       title: "Covid Tracker",
       teaser: "https://image.lexica.art/full_webp/056754d1-315b-4606-8a80-7a8e86f09520",
       path: "covid-tracker",
@@ -424,8 +457,8 @@ export const aboutSection = [
       message: "Stay updated on COVID-19 cases."
     },
     {
-      id: "20",
-      sr: "20",
+      id: "22",
+      sr: "22",
       title: "ATG World",
       teaser: "https://image.lexica.art/full_webp/2193e5fb-a994-4825-8bce-fa50af8a43f9",
       path: "atg-world",
@@ -440,8 +473,8 @@ export const aboutSection = [
       message: "Connecting the global tech community."
     },
     {
-      id: "21",
-      sr: "21",
+      id: "23",
+      sr: "23",
       title: "ACOM",
       teaser: "https://image.lexica.art/full_webp/13cdd184-d4eb-464e-a56f-27ac9eea4d64",
       path: "acom",
@@ -456,8 +489,8 @@ export const aboutSection = [
       message: "New fashion capital."
     },
     {
-      id: "22",
-      sr: "22",
+      id: "24",
+      sr: "24",
       title: "Dev Priyansh",
       teaser: "https://cdn.sanity.io/images/s9olv7lh/production/154e236f0d65145720c9b34dac018338bc02db14-1600x1003.jpg",
       path: "devpriyansh",
