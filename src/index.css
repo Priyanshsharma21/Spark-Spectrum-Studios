@@ -1290,6 +1290,7 @@ img, video {
   font-size: 13vw;
   line-height: .8em;
   text-transform: uppercase;
+  text-shadow: 0px 2px 15px black;
 }
 
 .c-ceo-text-sub {
@@ -1944,6 +1945,71 @@ img, video {
   display :flex;
   justify-content : center;
 }
+
+
+
+/* Content Category */
+.ccTitle{
+  padding-top: 11rem;
+  text-align: center;
+  color: #e2e2e2;
+  font-weight: 400;
+  font-size: 8vh;
+}
+.ccImg{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+
+}
+.ccImg img{
+  border-radius: 4px;
+  width: 70%;
+  transition: all 0.1s linear;
+  object-fit: cover;
+}
+
+.ccVideo{
+  object-fit: cover;
+  width: 70%;
+  height: 100%;
+}
+.ccRow{
+  margin-top: 3rem;
+}
+.ccImg img:hover,.ccVideo:hover{
+  border: 2px solid #e2e2e2;
+}
+.cctitle{
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2em;
+  color: #e2e2e2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1367px) {
   .contact-form-section {
       width: calc(50% - 1px);

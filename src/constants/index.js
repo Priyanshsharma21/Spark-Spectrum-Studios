@@ -1,6 +1,7 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
 import { AiOutlineYoutube } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
 import {orxp1,
   orxp2,
   orxp3,
@@ -20,7 +21,6 @@ process8,
 process9,
 process10,
 
-
 } from '../assets'
 
 
@@ -32,7 +32,7 @@ export const navItems = [
         message : "Click here for some serious eye-candy!"
     },
     {
-      key : "d2d2d87u6u",
+      key : "d2d2d87u6v",
       name : "Stories",
       path : "/content",
       message : "See the magic of our content creation!"
@@ -49,7 +49,9 @@ export const navItems = [
       path : "/contact",
       message : "Click here to send us love letters."
     },
-  ]
+]
+
+
 
 export const formOptions = {
     service : [
@@ -509,13 +511,13 @@ export const aboutSection = [
 export const footer_social_media = [
     {
       name: "Instagram",
-      url: "https://www.instagram.com/sparkspectrumstudios40/",
+      url: "https://www.instagram.com/spectrum__404/",
       icon: FaInstagram,
     },
     {
-      name: "Youtube",
-      url: "https://www.youtube.com/channel/UC8027VywG5dracX6Ol0nwcw",
-      icon: AiOutlineYoutube,
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/priyansh-sharma-7b9520223/",
+      icon: FaLinkedin,
     },
     {
       name: "Whatsapp",
@@ -753,6 +755,7 @@ export const footer_social_media = [
       ],
 
       videos : [
+            "https://youtu.be/ZJMe0TBOvxA",
             "https://youtu.be/G0qYfq8ZIHg?si=av245I7_SgiWtapB",
             "https://youtu.be/NcYYFE3IyLk?si=PEur1Ml7JSINV5Ge",
             "https://youtu.be/zawLs_juuL4?si=ZAabRZYh2-_lFCzI",
@@ -778,6 +781,266 @@ export const footer_social_media = [
       ]
     }
   ]
+
+
+
+  export const contentCategoryData = [
+    {
+      id : 1,
+      title : "Commercial Edits",
+      path : "commercial-edits",
+      img : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736238950/Insta_Square_Post-1_rjtf5f.png",
+      videoSrc : "https://res.cloudinary.com/dmjswpxjb/video/upload/v1736237231/Snapinsta.app_video_AQNxAViBDTrP_KY-v7bwX2mCiwMNGwbXwBvvO96SQ8up6rhjzmNGXQKsFONmbXPdozc1GyzKE8DLWQhIpnsv_QrInidILYMcWTE1E6k_ukm9bz.mp4",
+      data : {
+        id : 1,
+        src : "https://cdn.sanity.io/images/s9olv7lh/production/d1280e85dd501947d7d861bcafebdd7d33f9037d-6756x5087.png",
+        client_name : "Commercial Edits",
+        path : "commercial-edits",
+        introDescription : "Commercial edits -  6 reels and 6 posts, total Engagement of 32k accounts in 1.5 month on Instagram and LinkedIn.",
+        cover : "https://cdn.sanity.io/images/s9olv7lh/production/137f05c21e642298c97cc6673d962427cdae27b0-1080x1350.jpg",
+        softwareUsed : ["Premier Pro - Video Editing", "After Affects - Special effects & Editing", "Photoshop - Photo editing & Thumbnails",
+          "Adobe Fireflies - AI art generation", "Canva - Design & Illustration", "Figma - Design & Illustration", "Capcut - Video Editing"
+        ],
+        engagementDetails : [
+          {
+            title : "Reels",
+            value : "7",
+          },
+          {
+            title : "posts",
+            value : "6",
+          },
+          {
+            title : "Views",
+            value : "32k"
+          },
+          {
+            title : "Likes",
+            value : "3k"
+          },
+          {
+            title : "Share",
+            value : "4k",
+          },
+          {
+            title : "Comments",
+            value : "205"
+          },
+        ],
+        reels : [
+          "https://www.instagram.com/reel/C3McorrLkO3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          "https://www.instagram.com/reel/C1JdknmSqsK/?utm_source=ig_web_copy_link",
+          "https://www.instagram.com/reel/C1QzLsxS3bW/?utm_source=ig_web_copy_link",
+          "https://www.instagram.com/reel/C1hS3AjS6Jx/?utm_source=ig_web_copy_link",
+          "https://www.instagram.com/reel/C1i274HyMgv/?utm_source=ig_web_copy_link",
+          "https://www.instagram.com/reel/C1t1Qu4SH2y/?utm_source=ig_web_copy_link",
+          "https://www.instagram.com/reel/C166UVzSr2P/?utm_source=ig_web_copy_link",
+        ],
+        posts : [
+          {
+            src: orxp1,
+            link: "https://www.instagram.com/p/C2uF4YIylg3/?utm_source=ig_web_copy_link",
+        },
+        {
+            src: orxp2,
+            link: "https://www.instagram.com/p/C1Oly_OS8Si/?utm_source=ig_web_copy_link",
+        },
+        {
+            src: orxp3,
+            link: "https://www.instagram.com/p/C1WMTemSTm6/?utm_source=ig_web_copy_link",
+        },
+        {
+            src: orxp4,
+            link: "https://www.instagram.com/p/C1q0VcJyqi6/?utm_source=ig_web_copy_link",
+        },
+        {
+            src: orxp5,
+            link: "https://www.instagram.com/p/C2PR33NyjKA/?utm_source=ig_web_copy_link",
+        },
+        {
+            src: orxp7,
+            link: "https://www.instagram.com/p/C2e_OgEyOFG/?utm_source=ig_web_copy_link",
+        },
+        ]
+      }
+    },
+
+    {
+      id : 2,
+      title : "Simple Edits",
+      path : "simple-edits",
+      videoSrc : "https://res.cloudinary.com/dmjswpxjb/video/upload/v1736235296/Snapinsta.app_video_AQNnTa9xD61I7md9nG5aKKxGaZDdWas1A5xdT775a0_r0bcMtTztUlBH8YPHmxa1CqGDi97-ky18KF3wcvu91v-f5uAXJM9nqz_zr7U_pvwd6o.mp4",
+      img : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736238951/Insta_Square_Post-2_gjuutz.png",
+      data : {
+        id : 2,
+        src : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736322579/about6_ewmjzw.png",
+        client_name : "Simple Edits",
+        path : "simple-edits",
+        introDescription : "Simple edits -  8 reels and 3 shorts, total Engagement of 25k accounts on Instagram and youtube.",
+        cover : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736322579/about6_ewmjzw.png",
+        softwareUsed : ["Premier Pro - Video Editing", "After Affects - Special effects & Editing", "Photoshop - Photo editing & Thumbnails",
+          "Adobe Fireflies - AI art generation", "Canva - Design & Illustration", "Figma - Design & Illustration", "Capcut - Video Editing"
+        ],
+        engagementDetails : [
+          {
+            title : "Reels",
+            value : "8",
+          },
+          {
+            title : "shorts",
+            value : "3",
+          },
+          {
+            title : "Views",
+            value : "25k"
+          },
+          {
+            title : "Likes",
+            value : "2.3k"
+          },
+          {
+            title : "Share",
+            value : "2k",
+          },
+          {
+            title : "Comments",
+            value : "111"
+          },
+        ],
+        reels : [
+          "https://www.instagram.com/reel/C9jYvT8vBB8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          "https://www.instagram.com/reel/C9vANZoy35X/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          "https://www.instagram.com/reel/C9xgSDIS0LB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          "https://www.instagram.com/reel/C2rNqUdM29A/?utm_source=ig_web_copy_link",
+          "https://www.instagram.com/reel/C2rOImZMVch/?utm_source=ig_web_copy_link",
+           "https://www.instagram.com/reel/C3oZ_n9vqso/?utm_source=ig_web_copy_link",
+          "https://www.instagram.com/reel/C84NUDiykpY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          "https://www.instagram.com/reel/C1hS3AjS6Jx/?utm_source=ig_web_copy_link",
+
+        ],
+        shorts : [
+          "https://youtube.com/shorts/5CBc5AbkER4?si=irAnBohYJGl-NWnc",
+          "https://youtube.com/shorts/xkZ0ofDtWlE?si=035sNocuA1QFGOO-",
+          "https://youtube.com/shorts/76ALfsanzBM?si=z6sFKEJM9d0hU26U"
+        ]
+      }
+    },
+
+    {
+      id : 3,
+      title : "Advanced Motion Edits",
+      path : "advance-edits",
+      videoSrc : "https://res.cloudinary.com/dmjswpxjb/video/upload/v1736235253/Snapinsta.app_video_AQMX-7dkbpu89MGNuJVH7mnX1BENhPP9zhFHoIlIi1IrqHcUy-Uucu007es3piW8xY3g2jnK_NyZ5vMv3bHcwp4t3TR3XEUOMrygFP4_z44sid.mp4",
+      img : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736238950/Insta_Square_Post_ch9kvn.png",
+      data : {
+        id : 3,
+        src : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736325820/OIP_agoton.jpg",
+        client_name : "Advance Motion Edits",
+        path : "advance-edits",
+        introDescription : "Advance Motion edits -  11 reels and 3 shorts, total Engagement of 30k accounts in 1.5 month on Instagram and Youtube.",
+        cover : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736325820/OIP_agoton.jpg",
+        softwareUsed : ["Premier Pro - Video Editing", "After Affects - Special effects & Editing", "Photoshop - Photo editing & Thumbnails",
+          "Adobe Fireflies - AI art generation", "Canva - Design & Illustration", "Figma - Design & Illustration", "Capcut - Video Editing"
+        ],
+        engagementDetails : [
+          {
+            title : "Reels",
+            value : "11",
+          },
+          {
+            title : "shorts",
+            value : "3",
+          },
+          {
+            title : "Views",
+            value : "744k"
+          },
+          {
+            title : "Likes",
+            value : "123k"
+          },
+          {
+            title : "Share",
+            value : "124k",
+          },
+          {
+            title : "Comments",
+            value : "7205"
+          },
+        ],
+        reels : [
+         "https://www.instagram.com/reel/C3_bceryuaB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+        "https://www.instagram.com/reel/C4CS2exvu9u/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+        "https://www.instagram.com/reel/C4EorGMSt90/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+        "https://www.instagram.com/reel/C4HQBY4vg0j/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+        "https://www.instagram.com/reel/C4b1Uz7SdQF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+        "https://www.instagram.com/reel/C4e4QNEL-HQ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+        "https://www.instagram.com/reel/C2JnmYByz-x/?utm_source=ig_web_copy_link",
+        "https://www.instagram.com/reel/C2y-TRKMZAS/?utm_source=ig_web_copy_link",
+          "https://www.instagram.com/reel/C9jYvT8vBB8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          "https://www.instagram.com/reel/C9vANZoy35X/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          "https://www.instagram.com/reel/C9xgSDIS0LB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        ],
+      }
+    },
+
+    {
+      id : 4,
+      title : "Long-Form Edits",
+      path : "long-form-edits",
+      videoSrc : "https://res.cloudinary.com/dmjswpxjb/video/upload/v1734444089/1217_kprmkm.mp4",
+      img : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736238954/Insta_Square_Post-3_axoyki.png",
+      data : {
+        id : 4,
+        src : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736325870/63da7cb82357955d3eb5cf27_different_timeline_editor_interfaces_1-64413037bf6ece35cac4f2ba_scc4ry.png",
+        client_name : "Long-Form Edits",
+        path : "long-form-edits",
+        introDescription : "Long-Form Edits -  12 videos, total Engagement of 130k accounts in 5 months on Youtube.",
+        cover : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736325870/63da7cb82357955d3eb5cf27_different_timeline_editor_interfaces_1-64413037bf6ece35cac4f2ba_scc4ry.png",
+        softwareUsed : ["Premier Pro - Video Editing", "After Affects - Special effects & Editing", "Photoshop - Photo editing & Thumbnails",
+          "Adobe Fireflies - AI art generation", "Canva - Design & Illustration", "Figma - Design & Illustration", "Capcut - Video Editing"
+        ],
+        engagementDetails : [
+          {
+            title : "Videos",
+            value : "12",
+          },
+          {
+            title : "Views",
+            value : "132k"
+          },
+          {
+            title : "Likes",
+            value : "13k"
+          },
+          {
+            title : "Share",
+            value : "14k",
+          },
+          {
+            title : "Comments",
+            value : "1205"
+          },
+        ],
+        videos : [
+          "https://www.youtube.com/watch?v=sNea0pjsKYU",
+          "https://youtu.be/fEjyF2gA_Mk?si=XCxd9y1T5p7-jJjQ",
+          "https://youtu.be/Txxkb73HYJs?si=aLpVCGdHMSj4DIpE",
+          "https://youtu.be/TBWs6hRoFD4?si=YjOBi5Eup416Rp9v",
+          "https://youtu.be/VvmSCiPmu4s?si=M86zf25QmzyRRN5O",
+          "https://www.youtube.com/watch?v=tIzRcBDACHQ",
+          "https://www.youtube.com/watch?v=2D9krA13qhI",
+          "https://www.youtube.com/watch?v=ddJu0OnrryE",
+          "https://www.youtube.com/watch?v=P1yz5Q8sZBI",
+          "https://www.youtube.com/watch?v=jIF-gq4KTFQ",
+          "https://www.youtube.com/watch?v=0EfMBJPwvi0",
+          "https://www.youtube.com/watch?v=rejnS1MR1JQ",
+    ],
+      }
+    },
+
+  ]
+
 
 
   export const processData = [

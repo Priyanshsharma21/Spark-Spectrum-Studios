@@ -10,6 +10,7 @@ import AboutBigPara from './AboutBigPara.jsx'
 import ContentAbout from './ContentAbout.jsx'
 import ContentProcess from './ContentProcess.jsx'
 import FaqMain from './FaqMain.jsx'
+import ContentCategory from './ContentCategory.jsx'
 
 export {
     Preloader,
@@ -23,5 +24,6 @@ export {
     AboutBigPara,
     ContentAbout,
     ContentProcess,
-    FaqMain
+    FaqMain,
+    ContentCategory
 }

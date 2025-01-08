@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { contentCards } from '../constants';
+import { contentCategoryData } from '../constants';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { Row, Col } from 'antd';
@@ -15,19 +15,21 @@ const ContentDetail = () => {
   const yTransform = useTransform(scrollYProgress, [0, 1], [0, -100]);
 
   useEffect(() => {
-    const content = contentCards.find((content) => content.path === id);
+    const content = contentCategoryData.find((content) => content.data.path === id);
     let contentDetailId = content?.id;
-    if (contentDetailId < contentCards.length) {
-      setNextContentID(contentCards[contentDetailId].path);
+    if (contentDetailId < contentCategoryData.length) {
+      setNextContentID(contentCategoryData[contentDetailId].data.path);
     } else {
-      setNextContentID("orxa");
+      setNextContentID("commercial-edits");
     }
-    setContentDetail(content);
+    setContentDetail(content.data);
   }, [id]);
 
   const handleNext = () => {
     navigate(`/content/${nextContentID}`);
   };
+
+  console.log(contentDetail)
 
   const handleRedirect = (link) => {
     window.open(link, "_blank");
@@ -98,11 +100,11 @@ const ContentDetail = () => {
             <h3 className="pd-name text-[#e2e2e2]">{contentDetail?.client_name}</h3>
             <div className="pd-entry-counter-box">
               <span className="pd-entry-counter-1">{contentDetail?.id}</span>
-              <span className="pd-entry-counter-2 text-[#e2e2e2]">/ {contentCards?.length}</span>
+              <span className="pd-entry-counter-2 text-[#e2e2e2]">/ {contentCategoryData?.length}</span>
             </div>
             <div className="pd-link-next" onClick={handleNext}>
               <span className="pd-link-text text-[#e2e2e2] hover:text-[#b46633]">
-                next <span className="pd-link-next-proj">client</span>
+                next <span className="pd-link-next-proj">category</span>
               </span>
             </div>
           </div>
@@ -208,7 +210,7 @@ const ContentDetail = () => {
 
       
       <div className="pd-link-next-sub next-client" onClick={handleNext}>
-        <span className="pd-link-text-sub">next client</span>
+        <span className="pd-link-text-sub">next category</span>
       </div>
 
       <Footer />
