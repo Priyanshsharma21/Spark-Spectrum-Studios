@@ -789,8 +789,8 @@ export const footer_social_media = [
       id : 1,
       title : "Commercial Edits",
       path : "commercial-edits",
-      img : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736238950/Insta_Square_Post-1_rjtf5f.png",
-      videoSrc : "https://res.cloudinary.com/dmjswpxjb/video/upload/v1736237231/Snapinsta.app_video_AQNxAViBDTrP_KY-v7bwX2mCiwMNGwbXwBvvO96SQ8up6rhjzmNGXQKsFONmbXPdozc1GyzKE8DLWQhIpnsv_QrInidILYMcWTE1E6k_ukm9bz.mp4",
+      img : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736408827/Insta_Square_Post-1_bpjlgl.png",
+      videoSrc : "https://res.cloudinary.com/dmjswpxjb/video/upload/v1736409188/Snapinsta.app_video_AQNxAViBDTrP_KY-v7bwX2mCiwMNGwbXwBvvO96SQ8up6rhjzmNGXQKsFONmbXPdozc1GyzKE8DLWQhIpnsv_QrInidILYMcWTE1E6k_1_ihqwch.mp4",
       data : {
         id : 1,
         src : "https://cdn.sanity.io/images/s9olv7lh/production/d1280e85dd501947d7d861bcafebdd7d33f9037d-6756x5087.png",
@@ -869,8 +869,8 @@ export const footer_social_media = [
       id : 2,
       title : "Simple Edits",
       path : "simple-edits",
-      videoSrc : "https://res.cloudinary.com/dmjswpxjb/video/upload/v1736235296/Snapinsta.app_video_AQNnTa9xD61I7md9nG5aKKxGaZDdWas1A5xdT775a0_r0bcMtTztUlBH8YPHmxa1CqGDi97-ky18KF3wcvu91v-f5uAXJM9nqz_zr7U_pvwd6o.mp4",
-      img : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736238951/Insta_Square_Post-2_gjuutz.png",
+      videoSrc : "https://res.cloudinary.com/dmjswpxjb/video/upload/v1736409189/Snapinsta.app_video_AQNnTa9xD61I7md9nG5aKKxGaZDdWas1A5xdT775a0_r0bcMtTztUlBH8YPHmxa1CqGDi97-ky18KF3wcvu91v-f5uAXJM9nqz_zr7U_1_fjdf66.mp4",
+      img : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736408826/Insta_Square_Post-2_rasero.png",
       data : {
         id : 2,
         src : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736322579/about6_ewmjzw.png",
@@ -930,8 +930,8 @@ export const footer_social_media = [
       id : 3,
       title : "Advanced Motion Edits",
       path : "advance-edits",
-      videoSrc : "https://res.cloudinary.com/dmjswpxjb/video/upload/v1736235253/Snapinsta.app_video_AQMX-7dkbpu89MGNuJVH7mnX1BENhPP9zhFHoIlIi1IrqHcUy-Uucu007es3piW8xY3g2jnK_NyZ5vMv3bHcwp4t3TR3XEUOMrygFP4_z44sid.mp4",
-      img : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736238950/Insta_Square_Post_ch9kvn.png",
+      videoSrc : "https://res.cloudinary.com/dmjswpxjb/video/upload/v1736409189/advance_1_fz44jx.mp4",
+      img : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736408827/Insta_Square_Post_jvm27q.png",
       data : {
         id : 3,
         src : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736325820/OIP_agoton.jpg",
@@ -989,7 +989,7 @@ export const footer_social_media = [
       title : "Long-Form Edits",
       path : "long-form-edits",
       videoSrc : "https://res.cloudinary.com/dmjswpxjb/video/upload/v1734444089/1217_kprmkm.mp4",
-      img : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736238954/Insta_Square_Post-3_axoyki.png",
+      img : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736408828/Insta_Square_Post-3_acwm0s.png",
       data : {
         id : 4,
         src : "https://res.cloudinary.com/dmjswpxjb/image/upload/v1736325870/63da7cb82357955d3eb5cf27_different_timeline_editor_interfaces_1-64413037bf6ece35cac4f2ba_scc4ry.png",

@@ -33,7 +33,7 @@ const ContentCategory = () => {
 
     return (
         <motion.div 
-            className="contentCategory w-full h-screen"
+            className="contentCategory w-full"
             initial="hidden"
             animate="visible"
             variants={containerVariants}

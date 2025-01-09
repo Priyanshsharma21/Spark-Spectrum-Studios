@@ -1990,7 +1990,9 @@ img, video {
 }
 
 
-
+.contentCategory{
+  height: 100vh;
+}
 
 
 
@@ -2543,6 +2545,7 @@ img, video {
 }
 
 
+
 .c-process-cont{
   gap: 0;
 }
@@ -2623,6 +2626,48 @@ img, video {
   position: relative;
   top: 0rem;
 }
+
+.ccTitle{
+  padding-top: 9rem;
+  font-size: 2rem;
+}
+
+.ccImg{
+  height: 200px;
+}
+.ccImg img{
+  border-radius: 4px;
+  width: 85%;
+  transition: all 0.1s linear;
+  object-fit: cover;
+}
+
+.ccVideo{
+  object-fit: cover;
+  width: 85%;
+  height: 100%;
+}
+.cctitle{
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2em;
+  color: #e2e2e2;
+}
+
+.ccCol{
+  margin-top: 3rem;
+}
+
+.ccRow{
+  margin-top: 0.5rem;
+}
+
+.contentCategory{
+  height: 100%;
+}
+
 }
 
 @media (max-width: 768px) {
